@@ -63,24 +63,36 @@ namespace Network
         [UnityEditor.InitializeOnLoadMethod]
         private static void EnsureNetworkConfigExists()
         {
-            const string configPath = "Assets/Network/Resources";
-            const string configName = "NetworkConfig.asset";
-            
-            if (!System.IO.Directory.Exists(configPath))
+            UnityEditor.EditorApplication.delayCall += () =>
             {
-                System.IO.Directory.CreateDirectory(configPath);
-                UnityEditor.AssetDatabase.Refresh();
-            }
+                const string configPath = "Assets/Network/Resources";
+                const string configName = "NetworkConfig.asset";
+                string fullPath = $"{configPath}/{configName}";
+                
+                if (!System.IO.Directory.Exists(configPath))
+                {
+                    System.IO.Directory.CreateDirectory(configPath);
+                    UnityEditor.AssetDatabase.Refresh();
+                }
 
-            var config = UnityEditor.AssetDatabase.LoadAssetAtPath<NetworkConfigSO>($"{configPath}/{configName}");
-            if (config)
-            {
-                return;
-            }
-            
-            config = CreateInstance<NetworkConfigSO>();
-            UnityEditor.AssetDatabase.CreateAsset(config, $"{configPath}/{configName}");
-            UnityEditor.AssetDatabase.SaveAssets();
+                var config = UnityEditor.AssetDatabase.LoadAssetAtPath<NetworkConfigSO>(fullPath);
+                if (config != null)
+                {
+                    return;
+                }
+
+                try
+                {
+                    config = CreateInstance<NetworkConfigSO>();
+                    UnityEditor.AssetDatabase.CreateAsset(config, fullPath);
+                    UnityEditor.AssetDatabase.SaveAssets();
+                    UnityEditor.AssetDatabase.Refresh();
+                }
+                catch (System.Exception ex)
+                {
+                    Debug.LogError($"Failed to create NetworkConfig asset at {fullPath}: {ex.Message}");
+                }
+            };
         }
 #endif
     }
