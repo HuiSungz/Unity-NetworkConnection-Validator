@@ -1,0 +1,25 @@
+{
+  "name": "com.actionfit.networkconnector",
+  "version": "1.0.0",
+  "displayName": "[Network Modular] Network Connection Validator",
+  "description": "A robust and modular network connection validator for Unity. This module provides comprehensive connectivity checks using multiple validation methods (Unity Network, HTTP, and Ping), complete with retry mechanisms, event-driven notifications, and connection tracking. Easily integrate it into your projects to ensure reliable network performance and seamless connectivity management.",
+  "unity": "2022.3",
+  "author": {
+    "name": "ActionFit-HS",
+    "email": "huisung@actionfit.kr",
+    "url": "https://github.com/HuiSungz"
+  },
+  "keywords": [
+    "actionfit",
+    "framework",
+    "module",
+    "network",
+    "connectivity",
+    "validator",
+    "retry",
+    "connection",
+    "tracking",
+    "network manager",
+    "unity"
+  ]
+}

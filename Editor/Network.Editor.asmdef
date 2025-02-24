@@ -1,0 +1,18 @@
+{
+    "name": "Network.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:418e8c69e7e384bc9afe352866e9727d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
