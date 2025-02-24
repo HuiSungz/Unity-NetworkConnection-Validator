@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Network
 {
-    [CreateAssetMenu(fileName = "NetworkConfig", menuName = "Network/Network Config")]
+    // [CreateAssetMenu(fileName = "NetworkConfig", menuName = "Network/Network Config")]
     public class NetworkConfigSO : ScriptableObject
     { 
         [SerializeField] private string[] httpUrls = { "https://www.google.com" };
