@@ -1,7 +1,7 @@
 
 using System;
 
-namespace Network
+namespace NetworkConnector
 {
     /// <summary>
     /// 네트워크 연결 상태 변경 및 오류에 대한 이벤트를 관리합니다.

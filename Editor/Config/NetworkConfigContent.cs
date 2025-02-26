@@ -1,5 +1,5 @@
 
-namespace Network.Editor
+namespace NetworkConnector.Editor
 {
     internal static class NetworkConfigContent
     {

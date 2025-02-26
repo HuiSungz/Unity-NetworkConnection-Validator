@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Network.Validator
+namespace NetworkConnector.Validator
 {
     internal class UnityAccessValidator : INetworkAccessValidator
     {

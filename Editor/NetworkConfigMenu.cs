@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 
-namespace Network.Editor
+namespace NetworkConnector.Editor
 {
     public static class NetworkConfigMenu
     {

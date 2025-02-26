@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Network.Editor
+namespace NetworkConnector.Editor
 {
     internal static class NetworkConfigEditorStyles
     {

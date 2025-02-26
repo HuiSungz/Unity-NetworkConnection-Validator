@@ -1,5 +1,5 @@
 {
-    "name": "Network.Editor",
+    "name": "NetworkConnector.Editor",
     "rootNamespace": "",
     "references": [
         "GUID:418e8c69e7e384bc9afe352866e9727d"

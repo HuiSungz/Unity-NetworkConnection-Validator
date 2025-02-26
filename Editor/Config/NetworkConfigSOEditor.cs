@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Network.Editor
+namespace NetworkConnector.Editor
 {
     [CustomEditor(typeof(NetworkConfigSO))]
     public class NetworkConfigSOEditor : UnityEditor.Editor

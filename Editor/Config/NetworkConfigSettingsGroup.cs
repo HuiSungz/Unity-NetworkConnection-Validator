@@ -3,7 +3,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace Network.Editor
+namespace NetworkConnector.Editor
 {
     internal class NetworkConfigSettingsGroup
     {

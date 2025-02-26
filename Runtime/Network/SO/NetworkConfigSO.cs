@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-namespace Network
+namespace NetworkConnector
 {
     // [CreateAssetMenu(fileName = "NetworkConfig", menuName = "Network/Network Config")]
     public class NetworkConfigSO : ScriptableObject

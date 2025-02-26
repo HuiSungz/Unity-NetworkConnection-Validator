@@ -1,9 +1,9 @@
 
 using System.Collections.Generic;
 using System.Threading;
-using Network.Validator;
+using NetworkConnector.Validator;
 
-namespace Network
+namespace NetworkConnector
 {
     internal static partial class NetworkManager
     {

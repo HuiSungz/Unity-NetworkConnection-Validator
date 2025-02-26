@@ -1,7 +1,7 @@
 
 using System;
 
-namespace Network
+namespace NetworkConnector
 {
     [Flags]
     public enum NetworkValidationType

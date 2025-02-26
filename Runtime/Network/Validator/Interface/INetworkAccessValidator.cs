@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Network.Validator
+namespace NetworkConnector.Validator
 {
     internal interface INetworkAccessValidator
     {

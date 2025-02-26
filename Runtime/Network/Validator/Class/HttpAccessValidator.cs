@@ -2,11 +2,11 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Network.Utils;
+using NetworkConnector.Utils;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace Network.Validator
+namespace NetworkConnector.Validator
 {
     internal class HttpAccessValidator : INetworkAccessValidator
     {

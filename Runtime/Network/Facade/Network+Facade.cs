@@ -3,7 +3,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Network
+namespace NetworkConnector
 {
     public static class NConnector
     {

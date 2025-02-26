@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Network
+namespace NetworkConnector
 {
     internal static partial class NetworkManager
     {

@@ -2,10 +2,10 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Network.Utils;
+using NetworkConnector.Utils;
 using UnityEngine;
 
-namespace Network.Validator
+namespace NetworkConnector.Validator
 {
     internal class PingAccessValidator : INetworkAccessValidator
     {

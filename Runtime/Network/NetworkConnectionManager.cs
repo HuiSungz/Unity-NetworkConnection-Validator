@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-namespace Network
+namespace NetworkConnector
 {
     internal static class NetworkConnectionManager
     {

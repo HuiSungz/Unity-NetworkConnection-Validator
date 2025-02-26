@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Network.Utils
+namespace NetworkConnector.Utils
 {
     internal static class RetryHelper
     {
